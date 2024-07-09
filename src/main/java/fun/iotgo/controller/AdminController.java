@@ -33,6 +33,7 @@ public class AdminController {
         try {
             adminService.updateAdmin(adminDto);
             ret.setCode(myconst.SUCCESS);
+            System.out.println("zl的test");
         } catch (Exception e) {
             log.error("AdminController updateAdmin error");
             ret.setCode(myconst.EXCEPTION);

@@ -8,6 +8,7 @@ public interface AdminMapper {
 
     int insert(Admin record);
 
+    //111111
     int insertSelective(Admin record);
 
     Admin selectByPrimaryKey(Integer id);
